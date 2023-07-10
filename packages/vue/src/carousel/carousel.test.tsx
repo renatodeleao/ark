@@ -13,7 +13,6 @@ describe('Carousel', () => {
 
     const nextTrigger = getByText('Next')
     expect(nextTrigger).toBeInTheDocument()
-    expect(nextTrigger).toBeInTheDocument()
     expect(nextTrigger).toHaveAttribute('data-part', 'next-trigger')
     expect(nextTrigger).toHaveAttribute('type', 'button')
     expect(nextTrigger).toHaveAttribute('aria-label', 'Next Slide')
